@@ -13,8 +13,8 @@ client.once("ready", () => {
 });
 
 client.on("messageCreate", (msg) => {
-  if (msg.content === "코련") {
-    msg.reply("뭐 이 씹련아");
+  if (msg.content === "ping") {
+    msg.reply("pong");
   }
 });
 // Login to Discord with your client's token
